@@ -14,6 +14,7 @@ dependencies:
   flutter_svg: ^2.0.7
   get: 4.6.5
   lottie: ^2.6.0
+  just_audio: ^0.9.34
 
 dev_dependencies:
   flutter_lints: 2.0.3
@@ -30,6 +31,7 @@ flutter:
     - assets/lottie/
     - assets/icon/
     - assets/appicon/
+    - assets/audio/
 
   fonts:
     - family: PlusJakartaSans
