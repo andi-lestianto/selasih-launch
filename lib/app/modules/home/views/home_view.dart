@@ -41,7 +41,7 @@ class HomeView extends GetView<HomeController> {
             ),
             Center(
               child: Container(
-                padding: EdgeInsets.all(75.w),
+                padding: EdgeInsets.all(100.w),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(24.r),
                     color: ClrTheme.clrWhite,
@@ -57,18 +57,18 @@ class HomeView extends GetView<HomeController> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Lottie.asset('assets/lottie/lottie-qrcode.json',
-                        height: 380.w, width: 380.w),
+                        height: 400.w, width: 400.w),
                     Text(
                       'Scan QR Code',
-                      style: FontTheme.bold.copyWith(fontSize: 35.sp),
+                      style: FontTheme.bold.copyWith(fontSize: 42.sp),
                     ),
                     SizedBox(
-                      height: 16.w,
+                      height: 24.w,
                     ),
                     Text(
                       'Silakan scan barcode yang ada pada Mobile\nApp ke arah pemindai KiosK',
                       style:
-                          FontTheme.base.copyWith(fontSize: 24.sp, height: 1.5),
+                          FontTheme.base.copyWith(fontSize: 28.sp, height: 1.5),
                       textAlign: TextAlign.center,
                     )
                   ],

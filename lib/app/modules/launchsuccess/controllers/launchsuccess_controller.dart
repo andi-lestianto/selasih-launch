@@ -8,6 +8,7 @@ class LaunchsuccessController extends GetxController {
 
   initAudio() async {
     await player.setAsset('assets/audio/sanggau-audio.mp3');
+    await player.seek(const Duration(milliseconds: 5200));
     await player.play();
     await player.setVolume(1.0);
   }

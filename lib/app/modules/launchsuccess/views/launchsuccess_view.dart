@@ -57,8 +57,8 @@ class LaunchsuccessView extends GetView<LaunchsuccessController> {
                         height: 400.w, width: 400.w),
                   ),
                   Container(
-                    padding:
-                        EdgeInsets.symmetric(horizontal: 120.w, vertical: 75.w),
+                    padding: EdgeInsets.symmetric(
+                        horizontal: 145.w, vertical: 100.w),
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(24.r),
                         color: ClrTheme.clrWhite,
@@ -76,27 +76,27 @@ class LaunchsuccessView extends GetView<LaunchsuccessController> {
                         GradientTextWidget(
                           text: 'Selamat!',
                           textStyle:
-                              FontTheme.semiBold.copyWith(fontSize: 96.sp),
+                              FontTheme.semiBold.copyWith(fontSize: 108.sp),
                         ),
                         SizedBox(
                           height: 20.w,
                         ),
                         Lottie.asset('assets/lottie/lottie-badge.json',
-                            height: 380.w, width: 380.w),
+                            height: 400.w, width: 400.w),
                         SizedBox(
                           height: 20.w,
                         ),
                         Text(
                           'Selasih telah diresmikan!',
-                          style: FontTheme.bold.copyWith(fontSize: 35.sp),
+                          style: FontTheme.bold.copyWith(fontSize: 42.sp),
                         ),
                         SizedBox(
-                          height: 16.w,
+                          height: 24.w,
                         ),
                         Text(
                           'Mari hidupkan budaya literasi',
                           style: FontTheme.base
-                              .copyWith(fontSize: 24.sp, height: 1.5),
+                              .copyWith(fontSize: 28.sp, height: 1.5),
                           textAlign: TextAlign.center,
                         )
                       ],
